@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1621276090 source:c:\users\hp\desktop\studia\s2\cpp\29.04\histogram\main.cpp
+	<iostream>
+	"hist.h"
+
+1621275993 source:c:\users\hp\desktop\studia\s2\cpp\29.04\histogram\hist.cpp
+	<iostream>
+	<math.h>
+	<fstream>
+	"hist.h"
+
+1621274795 c:\users\hp\desktop\studia\s2\cpp\29.04\histogram\hist.h
+
