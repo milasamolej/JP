@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1619710377 source:c:\users\hp\desktop\studia\s2\cpp\29.04\tablica\array.cpp
+	<iostream>
+	<math.h>
+	<fstream>
+	"array.h"
+
+1619720393 c:\users\hp\desktop\studia\s2\cpp\29.04\tablica\array.h
+
+1619720379 source:c:\users\hp\desktop\studia\s2\cpp\29.04\tablica\stat.cpp
+	<iostream>
+	<math.h>
+	<fstream>
+	"array.h"
+	"stat.h"
+
+1619710652 c:\users\hp\desktop\studia\s2\cpp\29.04\tablica\stat.h
+	"array.h"
+
+1619720439 source:c:\users\hp\desktop\studia\s2\cpp\29.04\tablica\main.cpp
+	<iostream>
+	<math.h>
+	<fstream>
+	"array.h"
+	"stat.h"
+

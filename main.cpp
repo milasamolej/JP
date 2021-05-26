@@ -1,28 +1,44 @@
 //==============================================================
-// Klasa histogram - tworzy i wyswiatla histogram na podstawie podanych wartosci (plik/klawiatura)
+// Klasa Array: tworzy tablice dynamiczne, dane pobiera
+// z pliku badz klawiatury
+// Klasa pochodna Stat: wykonuje statystyczne obliczenia
 //
 // ver data temat autor
 // 100 2021/22/04 Pierwszy projekt, Samolej Kamila
+// 101 2021/26/04 Dodanie klasy Stat, Samolej Kamila
+// 101 2021/29/04 Podzial na pliki, Samolej Kamila
 //==============================================================
 #include <iostream>
-#include "hist.h"
+#include <math.h>
+#include <fstream>
+#include "array.h"
+#include "stat.h"
 
 using namespace std;
 
 int main()
 {
-    Hist uno(10,1,11);
-    uno.Input(4.4);
-    uno.Input(5.4);
-    uno.Input(3.6);
-    uno.Input(3.0);
-    uno.Input(6.6);
-    uno.Input(5.2);
-    uno.View();
-    uno.Draw();
+    //ifstream plik;
+    //plik.open ("data.txt");
+    Array a, b;
+    Stat ba;
+    ba.Create(cin);
+    cout<<ba[2]<<endl;
+    cout<< ba.Srednia() <<endl<< ba.Odchylenie()<<endl;
+    /*a.Create(cin);
+    a.Disp();
+    b.Create(plik);
+    b.Disp();
+    cout<< b;
+    cin>>a;
+    a.Disp();
 
-    uno.Input ("data.txt");
-    uno.View();
-    uno.Draw();
+    Array kopiaA (a);
+    kopiaA.Disp();
+
+    kopiaA = b;
+    kopiaA.Disp();*/
+
     return 0;
 }
+
